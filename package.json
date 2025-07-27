@@ -1,24 +1,31 @@
 {
   "name": "flutter-web-capture-bot",
   "version": "1.0.0",
-  "description": "Automated screenshot capture bot for Flutter web applications",
+  "description": "Flutter Web 앱의 모든 페이지를 자동으로 캡처하는 도구",
   "main": "src/capture.js",
+  "bin": {
+    "flutter-web-capture": "src/cli.js"
+  },
   "scripts": {
     "start": "node src/capture.js",
-    "capture": "node src/capture.js",
-    "test": "node src/test.js",
-    "clean": "rm -rf captures/*.png",
-    "help": "node src/capture.js --help"
+    "capture": "node src/cli.js capture",
+    "init": "node src/cli.js init"
   },
-  "keywords": ["flutter", "web", "screenshot", "capture", "automation", "puppeteer"],
-  "author": "Flutter Web Capture Bot",
+  "keywords": [
+    "flutter",
+    "web",
+    "capture",
+    "screenshot",
+    "automation",
+    "puppeteer"
+  ],
+  "author": "GetNShow",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^21.0.0",
-    "express": "^4.18.0",
     "chalk": "^4.1.2",
-    "commander": "^11.0.0",
-    "fs-extra": "^11.0.0"
+    "commander": "^11.1.0",
+    "fs-extra": "^11.0.0",
+    "puppeteer": "^21.0.0"
   },
   "engines": {
     "node": ">=16.0.0"
