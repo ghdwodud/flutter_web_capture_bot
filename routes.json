@@ -1,8 +1,18 @@
 [
     {
+        "path": "/splash",
+        "filename": "splash.png",
+        "description": "스플래시 화면"
+    },
+    {
         "path": "/login",
         "filename": "login.png",
         "description": "로그인 페이지"
+    },
+    {
+        "path": "/register",
+        "filename": "register.png",
+        "description": "회원가입 페이지"
     },
     {
         "path": "/main",
@@ -10,9 +20,39 @@
         "description": "홈 페이지"
     },
     {
-        "path": "/store",
-        "filename": "store.png",
-        "description": "매장 페이지"
+        "path": "/booking",
+        "filename": "booking.png",
+        "description": "예약 페이지"
+    },
+    {
+        "path": "/kit-selection",
+        "filename": "kit_method_select.png",
+        "description": "키트 선택 방법 페이지"
+    },
+    {
+        "path": "/kit-selection-screen",
+        "filename": "kit_selection.png",
+        "description": "키트 선택 화면"
+    },
+    {
+        "path": "/kit-browsing",
+        "filename": "kit_browsing.png",
+        "description": "키트 브라우징 페이지"
+    },
+    {
+        "path": "/payment-confirmation",
+        "filename": "payment_confirmation.png",
+        "description": "결제 확인 페이지"
+    },
+    {
+        "path": "/reservation-completion",
+        "filename": "reservation_completion.png",
+        "description": "예약 완료 페이지"
+    },
+    {
+        "path": "/reservations",
+        "filename": "reservations.png",
+        "description": "예약 목록 페이지"
     },
     {
         "path": "/my",
@@ -20,13 +60,38 @@
         "description": "마이페이지"
     },
     {
+        "path": "/store",
+        "filename": "store.png",
+        "description": "매장 페이지"
+    },
+    {
         "path": "/store-map",
         "filename": "store_map.png",
         "description": "매장 지도 페이지"
     },
     {
-        "path": "/kit-browsing",
-        "filename": "kit_browsing.png",
-        "description": "키트 브라우징 페이지"
+        "path": "/mypage/reservations",
+        "filename": "mypage_reservations.png",
+        "description": "마이페이지 - 예약 내역"
+    },
+    {
+        "path": "/mypage/points",
+        "filename": "mypage_points.png",
+        "description": "마이페이지 - 포인트"
+    },
+    {
+        "path": "/mypage/favorites",
+        "filename": "mypage_favorites.png",
+        "description": "마이페이지 - 즐겨찾기"
+    },
+    {
+        "path": "/mypage/reviews",
+        "filename": "mypage_reviews.png",
+        "description": "마이페이지 - 리뷰"
+    },
+    {
+        "path": "/mypage/settings",
+        "filename": "mypage_settings.png",
+        "description": "마이페이지 - 설정"
     }
 ]
