@@ -72,7 +72,7 @@
     {
         "path": "/mypage/reservations",
         "filename": "mypage_reservations.png",
-        "description": "마이페이지 - 예약 내역"
+        "description": "마이페이지 - 예약 목록"
     },
     {
         "path": "/mypage/points",
