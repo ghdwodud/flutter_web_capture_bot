@@ -1,0 +1,32 @@
+[
+    {
+        "path": "/login",
+        "filename": "login.png",
+        "description": "로그인 페이지"
+    },
+    {
+        "path": "/main",
+        "filename": "home.png",
+        "description": "홈 페이지"
+    },
+    {
+        "path": "/store",
+        "filename": "store.png",
+        "description": "매장 페이지"
+    },
+    {
+        "path": "/my",
+        "filename": "mypage.png",
+        "description": "마이페이지"
+    },
+    {
+        "path": "/store-map",
+        "filename": "store_map.png",
+        "description": "매장 지도 페이지"
+    },
+    {
+        "path": "/kit-browsing",
+        "filename": "kit_browsing.png",
+        "description": "키트 브라우징 페이지"
+    }
+]

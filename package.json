@@ -1,0 +1,26 @@
+{
+  "name": "flutter-web-capture-bot",
+  "version": "1.0.0",
+  "description": "Automated screenshot capture bot for Flutter web applications",
+  "main": "src/capture.js",
+  "scripts": {
+    "start": "node src/capture.js",
+    "capture": "node src/capture.js",
+    "test": "node src/test.js",
+    "clean": "rm -rf captures/*.png",
+    "help": "node src/capture.js --help"
+  },
+  "keywords": ["flutter", "web", "screenshot", "capture", "automation", "puppeteer"],
+  "author": "Flutter Web Capture Bot",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "express": "^4.18.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
